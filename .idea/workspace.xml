@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="821c4110-fe43-4f97-b5c6-bec89bbccac4" name="Changes" comment="Pos system project create">
-      <change afterPath="$PROJECT_DIR$/src/controller/AddItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/AddItemForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/AddItemForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AddItemForm.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +34,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/My Git Hub works/openjfx-17.0.8_windows-x64_bin-sdk/javafx-sdk-17.0.8/lib/javafx.web.jar",
+    "last_opened_file_path": "E:/My Git Hub works/openjfx-17.0.8_windows-x64_bin-sdk/javafx-sdk-17.0.8/lib/javafx-swt.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -46,13 +45,27 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.AppInitializer">
+    <configuration name="AppInitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppInitializer" />
+      <module name="Pos_System" />
+      <option name="PROGRAM_PARAMETERS" value="$PATH_TO_FX$" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;E:\My Git Hub works\openjfx-17.0.8_windows-x64_bin-sdk\javafx-sdk-17.0.8\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="jfoenix-8.0.7.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/src/lib/jfoenix-8.0.7.jar" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.AppInitializer" />
+      <item itemvalue="JAR Application.jfoenix-8.0.7.jar" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppInitializer" />
         <item itemvalue="JAR Application.jfoenix-8.0.7.jar" />
       </list>
     </recent_temporary>
@@ -66,6 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691348455942</updated>
       <workItem from="1691348456970" duration="1879000" />
+      <workItem from="1691385185948" duration="349000" />
     </task>
     <task id="LOCAL-00001" summary="Pos system project create">
       <option name="closed" value="true" />
