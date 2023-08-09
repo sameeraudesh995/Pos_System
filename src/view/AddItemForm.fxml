@@ -12,7 +12,7 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="566.0" prefWidth="738.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddItemController">
+<AnchorPane prefHeight="566.0" prefWidth="738.0" style="-fx-background-color: black; -fx-border-color: #e67e22; -fx-border-width: 7;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddItemController">
    <children>
       <Label layoutX="21.0" layoutY="14.0" prefHeight="34.0" prefWidth="113.0" style="-fx-font-weight: 800;" text="ADD ITEMS">
          <font>
