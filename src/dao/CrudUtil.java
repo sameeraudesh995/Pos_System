@@ -10,7 +10,7 @@ import java.util.Objects;
 
 public class CrudUtil {
     //get prepared statement
-    public PreparedStatement getPreparedStatement(String query, Objects...args) throws SQLException, ClassNotFoundException {
+    public static PreparedStatement getPreparedStatement(String query, Object...args) throws SQLException, ClassNotFoundException {
         Connection connection = DbConnection.getInstance().getConnection();
         PreparedStatement statement = connection.prepareStatement(query);
         for (int i=0; i< args.length; i++ ){
@@ -19,10 +19,10 @@ public class CrudUtil {
         return statement;
 
     }
-    public boolean executeUpdate(String query, Objects...args ) throws SQLException, ClassNotFoundException {
+    public static boolean executeUpdate(String query, Object...args ) throws SQLException, ClassNotFoundException {
         return getPreparedStatement(query,args).executeUpdate() > 0;
     }
-    public ResultSet executeQuery(String query, Objects...args) throws SQLException, ClassNotFoundException {
-        return getPreparedStatement(query,args).executeQuery();
+    public static ResultSet executeQuery(String query, Object...args) throws SQLException, ClassNotFoundException {
+        return getPreparedStatement(query, args).executeQuery();
     }
 }
