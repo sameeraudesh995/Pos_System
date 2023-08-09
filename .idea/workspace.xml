@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="821c4110-fe43-4f97-b5c6-bec89bbccac4" name="Changes" comment="login form added">
-      <change afterPath="$PROJECT_DIR$/src/db/DbConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bo/BOFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bo/custom/LoginBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bo/custom/impl/LoginBOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx_fxml.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/LoginFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/LoginFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/AddItemForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AddItemForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pos_System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Pos_System.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/LoginForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/LoginForm.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,28 +39,28 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/My Git Hub works/openjfx-17.0.8_windows-x64_bin-sdk/javafx-sdk-17.0.8/lib/javafx-swt.jar",
+    "last_opened_file_path": "E:/My Git Hub works/openjfx-17.0.8_windows-x64_bin-sdk/javafx-sdk-17.0.8/legal/javafx.base",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.38045976",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager" selected="Application.AppInitializer">
-    <configuration name="AppInitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="AppInitializer" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AppInitializer" />
       <module name="Pos_System" />
-      <option name="PROGRAM_PARAMETERS" value="$PATH_TO_FX$" />
+      <option name="VM_PARAMETERS" value=" --module-path &quot;E:\My Git Hub works\openjfx-17.0.8_windows-x64_bin-sdk\javafx-sdk-17.0.8\lib&quot; --add-modules javafx.controls,javafx.fxml " />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jfoenix-8.0.7.jar" type="JarApplication" temporary="true">
+    <configuration name="jfoenix-8.0.7.jar" type="JarApplication">
       <option name="JAR_PATH" value="$PROJECT_DIR$/src/lib/jfoenix-8.0.7.jar" />
       <method v="2" />
     </configuration>
@@ -66,12 +68,6 @@
       <item itemvalue="Application.AppInitializer" />
       <item itemvalue="JAR Application.jfoenix-8.0.7.jar" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.AppInitializer" />
-        <item itemvalue="JAR Application.jfoenix-8.0.7.jar" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -86,6 +82,8 @@
       <workItem from="1691395702505" duration="2354000" />
       <workItem from="1691475591568" duration="207000" />
       <workItem from="1691476654530" duration="2682000" />
+      <workItem from="1691598549072" duration="3793000" />
+      <workItem from="1691604184447" duration="2508000" />
     </task>
     <task id="LOCAL-00001" summary="Pos system project create">
       <option name="closed" value="true" />
