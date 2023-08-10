@@ -9,7 +9,7 @@ public class BOFactory {
     private BOFactory(){  //private constructor
     }
 
-    public BOFactory getBoFactory(){
+    public static BOFactory getBoFactory(){
         if (boFactory == null){
             return boFactory = new BOFactory();
         }else{
@@ -17,7 +17,7 @@ public class BOFactory {
         }
     }
 
-    public LoginBO getBo(BoType boType ){
+    public  LoginBO getBo(BoType boType ){
         switch (boType){
             case LOGIN:
                 return new LoginBOImpl();

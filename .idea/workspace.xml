@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="821c4110-fe43-4f97-b5c6-bec89bbccac4" name="Changes" comment="login form added">
-      <change afterPath="$PROJECT_DIR$/src/bo/BOFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bo/custom/LoginBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bo/custom/impl/LoginBOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx_fxml.xml" beforeDir="false" />
+    <list default="true" id="821c4110-fe43-4f97-b5c6-bec89bbccac4" name="Changes" comment="Bofactory created">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pos_System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Pos_System.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/LoginForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/LoginForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bo/BOFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bo/BOFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bo/custom/LoginBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bo/custom/LoginBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bo/custom/impl/LoginBOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bo/custom/impl/LoginBOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/LoginFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/LoginFormController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,22 +33,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/My Git Hub works/openjfx-17.0.8_windows-x64_bin-sdk/javafx-sdk-17.0.8/legal/javafx.base",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.38045976",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/My Git Hub works/openjfx-17.0.8_windows-x64_bin-sdk/javafx-sdk-17.0.8/legal/javafx.base&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.38045976&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.AppInitializer">
     <configuration name="AppInitializer" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AppInitializer" />
@@ -83,7 +81,8 @@
       <workItem from="1691475591568" duration="207000" />
       <workItem from="1691476654530" duration="2682000" />
       <workItem from="1691598549072" duration="3793000" />
-      <workItem from="1691604184447" duration="2508000" />
+      <workItem from="1691604184447" duration="3513000" />
+      <workItem from="1691625153068" duration="1934000" />
     </task>
     <task id="LOCAL-00001" summary="Pos system project create">
       <option name="closed" value="true" />
@@ -109,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691396654565</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Bofactory created">
+      <option name="closed" value="true" />
+      <created>1691608029516</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691608029517</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +137,7 @@
     <MESSAGE value="Pos system project create" />
     <MESSAGE value="main libraries and main class added" />
     <MESSAGE value="login form added" />
-    <option name="LAST_COMMIT_MESSAGE" value="login form added" />
+    <MESSAGE value="Bofactory created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bofactory created" />
   </component>
 </project>
