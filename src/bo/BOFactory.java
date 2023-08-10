@@ -1,7 +1,7 @@
 package bo;
 
 import bo.custom.LoginBO;
-import bo.custom.impl.LoginBOImpl;
+import bo.custom.impl.LoginBoImpl;
 
 public class BOFactory {
     private static BOFactory boFactory;
@@ -20,7 +20,7 @@ public class BOFactory {
     public  LoginBO getBo(BoType boType ){
         switch (boType){
             case LOGIN:
-                return new LoginBOImpl();
+                return new LoginBoImpl();
             default:
                 return null;
         }

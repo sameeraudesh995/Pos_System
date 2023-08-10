@@ -4,7 +4,7 @@ import bo.custom.LoginBO;
 import dao.DAOFactory;
 import dao.custom.LoginDAO;
 
-public class LoginBOImpl implements LoginBO {
+public class LoginBoImpl implements LoginBO {
 
     LoginDAO loginDAO = DAOFactory.getDaoFactory().getDAO(DAOFactory.DAOType.LOGIN);
 
@@ -14,12 +14,9 @@ public class LoginBOImpl implements LoginBO {
         String passwordByUsername =  loginDAO.getPasswordByUsername(username);
        if(passwordByUsername == null){
            return false;
-       } else if (passwordByUsername.equals(password)){
-           return true;
+       } else return passwordByUsername.equals(password);
 
-           }else{
-           return false;
        }
 
-    }
+
 }

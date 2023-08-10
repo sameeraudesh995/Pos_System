@@ -11,7 +11,7 @@ public class DbConnection {
     private DbConnection() throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.jdbc.Driver");
         connection = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/retail_shop",
+                "jdbc:mysql://localhost:3306/retail_shop?useSSL=false",
                 "root",
                 "12345"
         );
