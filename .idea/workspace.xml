@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="821c4110-fe43-4f97-b5c6-bec89bbccac4" name="Changes" comment="LoginBO connected to the loginController.">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx_fxml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/MenuBarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/MenuBar.fxml" afterDir="false" />
+    <list default="true" id="821c4110-fe43-4f97-b5c6-bec89bbccac4" name="Changes" comment="MenuBar loading stage">
+      <change afterPath="$PROJECT_DIR$/src/util/ObjectPasser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pos_System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Pos_System.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bo/BOFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bo/BOFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bo/custom/impl/LoginBOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bo/custom/impl/LoginBoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bo/custom/LoginBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bo/custom/LoginBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bo/custom/impl/LoginBoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bo/custom/impl/LoginBoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/LoginFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/LoginFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/DbConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/DbConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/MenuBarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MenuBarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/custom/LoginDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/custom/LoginDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/custom/impl/LoginDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/custom/impl/LoginDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/MenuBar.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MenuBar.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +92,7 @@
       <workItem from="1691476654530" duration="2682000" />
       <workItem from="1691598549072" duration="3793000" />
       <workItem from="1691604184447" duration="3513000" />
-      <workItem from="1691625153068" duration="13955000" />
+      <workItem from="1691625153068" duration="16471000" />
     </task>
     <task id="LOCAL-00001" summary="Pos system project create">
       <option name="closed" value="true" />
@@ -136,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691628976837</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="MenuBar loading stage">
+      <option name="closed" value="true" />
+      <created>1691655632426</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691655632431</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +165,7 @@
     <MESSAGE value="login form added" />
     <MESSAGE value="Bofactory created" />
     <MESSAGE value="LoginBO connected to the loginController." />
-    <option name="LAST_COMMIT_MESSAGE" value="LoginBO connected to the loginController." />
+    <MESSAGE value="MenuBar loading stage" />
+    <option name="LAST_COMMIT_MESSAGE" value="MenuBar loading stage" />
   </component>
 </project>

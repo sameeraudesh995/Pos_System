@@ -23,4 +23,19 @@ public class LoginDAOImpl implements LoginDAO {
         }
         return null;
     }
+
+    @Override
+    public String getUserFullName(String username) {
+        try {
+            ResultSet resultSet = CrudUtil.executeQuery("SELECT*FROM users WHERE username=?", username);
+            if(resultSet.next()){
+                return resultSet.getString("fullName");
+
+            }
+        } catch (SQLException | ClassNotFoundException throwables) {
+            throwables.printStackTrace();
+
+        }
+        return null;
+    }
 }

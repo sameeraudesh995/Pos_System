@@ -8,7 +8,6 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: black; -fx-border-color: #079992; -fx-border-width: 8;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MenuBarController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="10.0" fill="#079992" height="100.0" layoutX="14.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="1169.0">
@@ -26,14 +25,14 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <ImageView fitHeight="59.0" fitWidth="81.0" layoutX="38.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="59.0" fitWidth="81.0" layoutX="22.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@Assets/account%20(1).png" />
+            <Image url="@Assets/usermenubar.png" />
          </image>
       </ImageView>
-      <Label layoutX="21.0" layoutY="86.0" prefHeight="20.0" prefWidth="104.0" text="Kamal De Silva" textFill="WHITE">
+      <Label fx:id="txtUserFullName" contentDisplay="TOP" layoutX="87.0" layoutY="51.0" prefHeight="26.0" prefWidth="119.0" text="Kamal De Silva" textFill="WHITE">
          <font>
-            <Font name="System Bold" size="14.0" />
+            <Font name="System Bold" size="16.0" />
          </font>
       </Label>
    </children>
