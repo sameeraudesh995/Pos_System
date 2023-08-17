@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="821c4110-fe43-4f97-b5c6-bec89bbccac4" name="Changes" comment="MenuBar loading stage">
-      <change afterPath="$PROJECT_DIR$/src/util/ObjectPasser.java" afterDir="false" />
+    <list default="true" id="821c4110-fe43-4f97-b5c6-bec89bbccac4" name="Changes" comment="Object Passer introduce">
+      <change afterPath="$PROJECT_DIR$/src/view/Assets/userMenu.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bo/custom/LoginBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bo/custom/LoginBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bo/custom/impl/LoginBoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bo/custom/impl/LoginBoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/LoginFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/LoginFormController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/MenuBarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MenuBarController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/custom/LoginDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/custom/LoginDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/custom/impl/LoginDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/custom/impl/LoginDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/AddItemForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AddItemForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Assets/account (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Assets/man (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Assets/man.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/LoginForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/LoginForm.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/MenuBar.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MenuBar.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,28 +37,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/My Git Hub works/pos_system/src/lib/mysql-connector-java-5.1.49.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.38045976",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/My Git Hub works/pos_system/src/view/Assets&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.38045976&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\My Git Hub works\pos_system\src\view\Assets" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.AppInitializer">
     <configuration name="AppInitializer" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AppInitializer" />
@@ -92,7 +97,9 @@
       <workItem from="1691476654530" duration="2682000" />
       <workItem from="1691598549072" duration="3793000" />
       <workItem from="1691604184447" duration="3513000" />
-      <workItem from="1691625153068" duration="16471000" />
+      <workItem from="1691625153068" duration="20052000" />
+      <workItem from="1692092777173" duration="39000" />
+      <workItem from="1692232876932" duration="5301000" />
     </task>
     <task id="LOCAL-00001" summary="Pos system project create">
       <option name="closed" value="true" />
@@ -142,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691655632431</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Object Passer introduce">
+      <option name="closed" value="true" />
+      <created>1691658369561</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691658369561</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +181,7 @@
     <MESSAGE value="Bofactory created" />
     <MESSAGE value="LoginBO connected to the loginController." />
     <MESSAGE value="MenuBar loading stage" />
-    <option name="LAST_COMMIT_MESSAGE" value="MenuBar loading stage" />
+    <MESSAGE value="Object Passer introduce" />
+    <option name="LAST_COMMIT_MESSAGE" value="Object Passer introduce" />
   </component>
 </project>

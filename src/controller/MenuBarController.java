@@ -10,6 +10,8 @@ import java.util.ResourceBundle;
 public class MenuBarController implements Initializable {
 
     public Label txtUserFullName;
+    public Label lblTime;
+    public Label lblDate;
 
     public void initialize(){
 
@@ -19,4 +21,5 @@ public class MenuBarController implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
         txtUserFullName.setText(ObjectPasser.userFullName);
     }
+
 }
