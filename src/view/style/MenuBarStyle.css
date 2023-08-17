@@ -1,7 +1,6 @@
 #menuBtnPos{
 
     -fx-background-color: #b71540;
-    -fx-border-width:2px;
     -fx-background-radius: 5 0 0 5;
 }
 #menuBtnPos:hover{
@@ -27,4 +26,9 @@
 }
 #btnMenuItem:hover{
     -fx-background-color: #c44569;
+}
+
+#addItemMenu{
+    -fx-background-color: #c44569;
+    -fx-text-fill: white;
 }

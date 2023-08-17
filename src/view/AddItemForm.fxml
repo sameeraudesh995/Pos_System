@@ -12,11 +12,11 @@
 <?import javafx.scene.paint.Stop?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="566.0" prefWidth="738.0" style="-fx-background-color: black; -fx-border-color: #e67e22; -fx-border-width: 7;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddItemController">
+<AnchorPane prefHeight="680.0" prefWidth="1193.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddItemController">
    <children>
-      <Label layoutX="21.0" layoutY="14.0" prefHeight="34.0" prefWidth="113.0" style="-fx-font-weight: 800;" text="ADD ITEMS">
+      <Label layoutX="21.0" layoutY="11.0" prefHeight="46.0" prefWidth="188.0" style="-fx-font-weight: 800;" text="ADD ITEMS">
          <font>
-            <Font size="20.0" />
+            <Font size="30.0" />
          </font>
          <textFill>
             <LinearGradient endX="1.0" endY="1.0">
@@ -28,40 +28,58 @@
                   </Stop>
                   <Stop offset="1.0">
                      <color>
-                        <Color red="1.0" green="0.4156862795352936" />
+                        <Color red="0.9333333373069763" green="0.03529411926865578" blue="0.4745098054409027" />
                      </color>
                   </Stop>
                </stops>
             </LinearGradient>
          </textFill>
       </Label>
-      <TextField layoutX="122.0" layoutY="60.0" prefHeight="26.0" prefWidth="216.0" promptText="ItemID" />
-      <TextField layoutX="122.0" layoutY="97.0" prefHeight="10.0" prefWidth="216.0" promptText="Item Name" />
-      <Label layoutX="48.0" layoutY="64.0" text="Item ID :" textFill="WHITE" />
-      <Label layoutX="48.0" layoutY="101.0" text="Item Name :" textFill="WHITE" />
-      <TextField layoutX="122.0" layoutY="133.0" prefHeight="10.0" prefWidth="216.0" promptText="Batch No" />
-      <Label layoutX="48.0" layoutY="137.0" text="Batch No :" textFill="WHITE" />
-      <TextField layoutX="473.0" layoutY="60.0" prefHeight="26.0" prefWidth="216.0" promptText="Item Price" />
-      <TextField layoutX="473.0" layoutY="97.0" prefHeight="10.0" prefWidth="216.0" promptText="Supplier" />
-      <Label layoutX="399.0" layoutY="64.0" text="Item Price :" textFill="WHITE" />
-      <Label layoutX="399.0" layoutY="101.0" text="Supplier :" textFill="WHITE" />
-      <TextField layoutX="473.0" layoutY="133.0" prefHeight="10.0" prefWidth="216.0" promptText="Exp Date" />
-      <Label layoutX="399.0" layoutY="137.0" text="Exp Date :" textFill="WHITE" />
-      <Separator layoutX="48.0" layoutY="234.0" prefHeight="5.0" prefWidth="642.0" />
-      <TableView layoutX="48.0" layoutY="240.0" prefHeight="302.0" prefWidth="642.0">
+      <TextField layoutX="212.0" layoutY="57.0" prefHeight="26.0" prefWidth="314.0" promptText="ItemID" />
+      <TextField layoutX="212.0" layoutY="94.0" prefHeight="26.0" prefWidth="314.0" promptText="Item Name" />
+      <Label layoutX="72.0" layoutY="54.0" text="Item ID :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font></Label>
+      <Label layoutX="72.0" layoutY="91.0" text="Item Name :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font></Label>
+      <TextField layoutX="212.0" layoutY="130.0" prefHeight="26.0" prefWidth="315.0" promptText="Batch No" />
+      <Label layoutX="72.0" layoutY="127.0" text="Batch No :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font></Label>
+      <TextField layoutX="790.0" layoutY="54.0" prefHeight="26.0" prefWidth="314.0" promptText="Item Price" />
+      <TextField layoutX="790.0" layoutY="91.0" prefHeight="26.0" prefWidth="314.0" promptText="Supplier" />
+      <Label layoutX="643.0" layoutY="55.0" prefHeight="13.0" prefWidth="127.0" text="Item Price :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font></Label>
+      <Label layoutX="645.0" layoutY="92.0" prefHeight="31.0" prefWidth="128.0" text="Supplier :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font></Label>
+      <TextField layoutX="790.0" layoutY="127.0" prefHeight="26.0" prefWidth="314.0" promptText="Exp Date" />
+      <Label layoutX="646.0" layoutY="127.0" prefHeight="13.0" prefWidth="113.0" text="Exp Date :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font></Label>
+      <Separator layoutX="11.0" layoutY="241.0" prefHeight="5.0" prefWidth="1170.0" />
+      <TableView layoutX="9.0" layoutY="254.0" prefHeight="418.0" prefWidth="1173.0">
          <columns>
             <TableColumn prefWidth="75.0" text="C1" />
             <TableColumn prefWidth="75.0" text="C2" />
          </columns>
       </TableView>
-      <Button layoutX="624.0" layoutY="182.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="65.0" style="-fx-background-color: #ff793f;" text="Add">
+      <Button layoutX="1006.0" layoutY="178.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #ff3838;" text="Add" textFill="WHITE">
          <font>
-            <Font name="System Bold" size="13.0" />
+            <Font name="System Bold" size="22.0" />
          </font>
       </Button>
-      <Button layoutX="548.0" layoutY="182.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="65.0" style="-fx-background-color: #d1ccc0;" text="Cancel">
+      <Button layoutX="901.0" layoutY="178.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #4b4b4b;" text="Cancel" textFill="WHITE">
          <font>
-            <Font name="System Bold" size="13.0" />
+            <Font name="System Bold" size="22.0" />
          </font>
       </Button>
    </children>
