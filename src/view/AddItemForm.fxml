@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.TableColumn?>
@@ -35,8 +36,8 @@
             </LinearGradient>
          </textFill>
       </Label>
-      <TextField layoutX="212.0" layoutY="57.0" prefHeight="26.0" prefWidth="314.0" promptText="ItemID" />
-      <TextField layoutX="212.0" layoutY="94.0" prefHeight="26.0" prefWidth="314.0" promptText="Item Name" />
+      <TextField fx:id="textItemId" layoutX="212.0" layoutY="57.0" prefHeight="26.0" prefWidth="314.0" promptText="ItemID" />
+      <TextField fx:id="textItemName" layoutX="212.0" layoutY="94.0" prefHeight="26.0" prefWidth="314.0" promptText="Item Name" />
       <Label layoutX="72.0" layoutY="54.0" text="Item ID :" textFill="WHITE">
          <font>
             <Font name="System Bold" size="21.0" />
@@ -45,13 +46,13 @@
          <font>
             <Font name="System Bold" size="21.0" />
          </font></Label>
-      <TextField layoutX="212.0" layoutY="130.0" prefHeight="26.0" prefWidth="315.0" promptText="Batch No" />
-      <Label layoutX="72.0" layoutY="127.0" text="Batch No :" textFill="WHITE">
+      <TextField fx:id="txtBatchNumber" layoutX="212.0" layoutY="131.0" prefHeight="26.0" prefWidth="315.0" promptText="Batch No" />
+      <Label layoutX="72.0" layoutY="128.0" text="Batch No :" textFill="WHITE">
          <font>
             <Font name="System Bold" size="21.0" />
          </font></Label>
-      <TextField layoutX="790.0" layoutY="54.0" prefHeight="26.0" prefWidth="314.0" promptText="Item Price" />
-      <TextField layoutX="790.0" layoutY="91.0" prefHeight="26.0" prefWidth="314.0" promptText="Supplier" />
+      <TextField fx:id="txtItemPrice" layoutX="790.0" layoutY="54.0" prefHeight="26.0" prefWidth="314.0" promptText="Item Price" />
+      <TextField fx:id="txtSupplierName" layoutX="790.0" layoutY="91.0" prefHeight="26.0" prefWidth="314.0" promptText="Supplier name" />
       <Label layoutX="643.0" layoutY="55.0" prefHeight="13.0" prefWidth="127.0" text="Item Price :" textFill="WHITE">
          <font>
             <Font name="System Bold" size="21.0" />
@@ -60,7 +61,6 @@
          <font>
             <Font name="System Bold" size="21.0" />
          </font></Label>
-      <TextField layoutX="790.0" layoutY="127.0" prefHeight="26.0" prefWidth="314.0" promptText="Exp Date" />
       <Label layoutX="646.0" layoutY="127.0" prefHeight="13.0" prefWidth="113.0" text="Exp Date :" textFill="WHITE">
          <font>
             <Font name="System Bold" size="21.0" />
@@ -72,7 +72,7 @@
             <TableColumn prefWidth="75.0" text="C2" />
          </columns>
       </TableView>
-      <Button layoutX="1006.0" layoutY="178.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #ff3838;" text="Add" textFill="WHITE">
+      <Button layoutX="1006.0" layoutY="178.0" mnemonicParsing="false" onAction="#btnAddOnAction" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #ff3838;" text="Add" textFill="WHITE">
          <font>
             <Font name="System Bold" size="22.0" />
          </font>
@@ -82,5 +82,12 @@
             <Font name="System Bold" size="22.0" />
          </font>
       </Button>
+      <DatePicker fx:id="pickerExpireDate" layoutX="791.0" layoutY="129.0" prefHeight="26.0" prefWidth="314.0" promptText="Expire Date" />
+      <TextField fx:id="txtItemQty" layoutX="212.0" layoutY="166.0" prefHeight="26.0" prefWidth="315.0" promptText="Batch No" />
+      <Label layoutX="72.0" layoutY="163.0" text="Item Quntity:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

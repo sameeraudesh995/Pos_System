@@ -11,7 +11,7 @@ import java.sql.Date;
 @ToString
 public class Item  {
     private String itemID;
-    private String itemNane;
+    private String itemName;
     private String batchNumber;
     private double price;
     private double qty;

@@ -6,7 +6,7 @@ import dao.custom.LoginDAO;
 
 public class LoginBoImpl implements LoginBO {
 
-    LoginDAO loginDAO = DAOFactory.getDaoFactory().getDAO(DAOFactory.DAOType.LOGIN);
+    LoginDAO loginDAO = (LoginDAO) DAOFactory.getDaoFactory().getDAO(DAOFactory.DAOType.LOGIN);
 
     @Override
     public boolean checkPassword(String username, String password) {

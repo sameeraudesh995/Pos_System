@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="821c4110-fe43-4f97-b5c6-bec89bbccac4" name="Changes" comment="itemDTO created">
-      <change afterPath="$PROJECT_DIR$/src/bo/custom/impl/ItemBOImpl.java" afterDir="false" />
+    <list default="true" id="821c4110-fe43-4f97-b5c6-bec89bbccac4" name="Changes" comment="ItemBOImpl created">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bo/SuperBO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bo/BOFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bo/BOFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bo/custom/ItemBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bo/custom/ItemBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bo/custom/LoginBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bo/custom/LoginBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bo/custom/impl/ItemBOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bo/custom/impl/ItemBOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bo/custom/impl/LoginBoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bo/custom/impl/LoginBoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/AddItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AddItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/LoginFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/LoginFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/custom/impl/ItemDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/custom/impl/ItemDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dto/ItemDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/ItemDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/AddItemForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AddItemForm.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,13 +30,16 @@
       <list>
         <option value="FxmlFile" />
         <option value="CSS File" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2TchonhDrzvlkcTK1voiukkuJMr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -35,6 +50,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "E:/My Git Hub works/pos_system/src/lib/lombok.jar",
     "list.type.of.created.stylesheet": "CSS",
@@ -95,7 +111,7 @@
       <workItem from="1691625153068" duration="20052000" />
       <workItem from="1692092777173" duration="39000" />
       <workItem from="1692232876932" duration="16438000" />
-      <workItem from="1692261741110" duration="12373000" />
+      <workItem from="1692261741110" duration="18743000" />
     </task>
     <task id="LOCAL-00001" summary="Pos system project create">
       <option name="closed" value="true" />
@@ -233,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692289770848</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="ItemBOImpl created">
+      <option name="closed" value="true" />
+      <created>1692290470619</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1692290470619</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +292,7 @@
     <MESSAGE value="item dao created" />
     <MESSAGE value="Extend from SuperDao" />
     <MESSAGE value="itemDTO created" />
-    <option name="LAST_COMMIT_MESSAGE" value="itemDTO created" />
+    <MESSAGE value="ItemBOImpl created" />
+    <option name="LAST_COMMIT_MESSAGE" value="ItemBOImpl created" />
   </component>
 </project>

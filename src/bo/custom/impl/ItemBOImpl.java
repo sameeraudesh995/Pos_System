@@ -14,7 +14,7 @@ public class ItemBOImpl implements ItemBO {
         //Create item entity
         Item item= new Item(
                 itemDTO.getItemID(),
-                itemDTO.getItemNane(),
+                itemDTO.getItemName(),
                 itemDTO.getBatchNumber(),
                 itemDTO.getPrice(),
                 itemDTO.getQty(),

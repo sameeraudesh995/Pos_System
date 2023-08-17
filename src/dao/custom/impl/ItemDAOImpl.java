@@ -10,19 +10,19 @@ public class ItemDAOImpl implements ItemDAO {
     @Override
     public boolean save(Item item) {
         try {
-            return CrudUtil.executeUpdate("INSERT INTO items VALUES(?,?,?,?,?,?,?)",
+            return CrudUtil.executeUpdate("INSERT INTO item VALUES(?,?,?,?,?,?,?)",
                     item.getItemID(),
-                    item.getItemNane(),
+                    item.getItemName(),
                     item.getBatchNumber(),
                     item.getPrice(),
                     item.getQty(),
                     item.getSupplier(),
                     item.getExpireDate()
-                    );
-        } catch (SQLException | ClassNotFoundException throwables){
+            );
+        } catch (SQLException | ClassNotFoundException throwables) {
             throwables.printStackTrace();
-
         }
-        return true;
+        return false;
     }
+
 }

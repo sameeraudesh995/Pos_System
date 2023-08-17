@@ -19,7 +19,7 @@ public class LoginFormController {
     public TextField txtUserName;
     public PasswordField txtPassword;
 
-    LoginBO loginBO = BOFactory.getBoFactory().getBo(BOFactory.BoType.LOGIN);
+    LoginBO loginBO = (LoginBO) BOFactory.getBoFactory().getBo(BOFactory.BoType.LOGIN);
 
     public void btnLoginOnClick(ActionEvent actionEvent) throws IOException {
        String username = txtUserName.getText();
