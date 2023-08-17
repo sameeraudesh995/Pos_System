@@ -1,0 +1,20 @@
+package dto;
+
+import lombok.*;
+
+import java.sql.Date;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+@ToString
+public class ItemDTO {
+    private String itemID;
+    private String itemNane;
+    private String batchNumber;
+    private double price;
+    private double qty;
+    private String supplier;
+    private Date expireDate;
+}
