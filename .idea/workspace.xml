@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="821c4110-fe43-4f97-b5c6-bec89bbccac4" name="Changes" comment="Extend from SuperDao">
-      <change afterPath="$PROJECT_DIR$/src/bo/custom/ItemBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dto/ItemDTO.java" afterDir="false" />
+    <list default="true" id="821c4110-fe43-4f97-b5c6-bec89bbccac4" name="Changes" comment="itemDTO created">
+      <change afterPath="$PROJECT_DIR$/src/bo/custom/impl/ItemBOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/custom/impl/ItemDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/custom/impl/ItemDAOImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +95,7 @@
       <workItem from="1691625153068" duration="20052000" />
       <workItem from="1692092777173" duration="39000" />
       <workItem from="1692232876932" duration="16438000" />
-      <workItem from="1692261741110" duration="11681000" />
+      <workItem from="1692261741110" duration="12373000" />
     </task>
     <task id="LOCAL-00001" summary="Pos system project create">
       <option name="closed" value="true" />
@@ -227,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692287930833</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="itemDTO created">
+      <option name="closed" value="true" />
+      <created>1692289770848</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1692289770848</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +267,7 @@
     <MESSAGE value="item entity created" />
     <MESSAGE value="item dao created" />
     <MESSAGE value="Extend from SuperDao" />
-    <option name="LAST_COMMIT_MESSAGE" value="Extend from SuperDao" />
+    <MESSAGE value="itemDTO created" />
+    <option name="LAST_COMMIT_MESSAGE" value="itemDTO created" />
   </component>
 </project>
