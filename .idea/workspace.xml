@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="821c4110-fe43-4f97-b5c6-bec89bbccac4" name="Changes" comment="item entity created">
-      <change afterPath="$PROJECT_DIR$/src/dao/custom/ItemDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/custom/impl/ItemDAOImpl.java" afterDir="false" />
+    <list default="true" id="821c4110-fe43-4f97-b5c6-bec89bbccac4" name="Changes" comment="item dao created">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/DAOFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/DAOFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +95,7 @@
       <workItem from="1691625153068" duration="20052000" />
       <workItem from="1692092777173" duration="39000" />
       <workItem from="1692232876932" duration="16438000" />
-      <workItem from="1692261741110" duration="9003000" />
+      <workItem from="1692261741110" duration="9996000" />
     </task>
     <task id="LOCAL-00001" summary="Pos system project create">
       <option name="closed" value="true" />
@@ -210,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692278626310</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="item dao created">
+      <option name="closed" value="true" />
+      <created>1692281233641</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1692281233641</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +249,7 @@
     <MESSAGE value="file updated" />
     <MESSAGE value="add item form loaded" />
     <MESSAGE value="item entity created" />
-    <option name="LAST_COMMIT_MESSAGE" value="item entity created" />
+    <MESSAGE value="item dao created" />
+    <option name="LAST_COMMIT_MESSAGE" value="item dao created" />
   </component>
 </project>
