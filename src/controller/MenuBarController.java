@@ -9,6 +9,7 @@ import javafx.util.Duration;
 import util.ObjectPasser;
 
 import java.net.URL;
+import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ResourceBundle;
@@ -27,7 +28,9 @@ public class MenuBarController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         txtUserFullName.setText(ObjectPasser.userFullName);
-        startClock();    }
+        startClock();
+        setDateFormat();
+    }
     private void startClock(){
         Timeline timeline = new Timeline(new KeyFrame(Duration.ZERO, e -> {
             currentTime = LocalTime.now();
@@ -39,5 +42,14 @@ public class MenuBarController implements Initializable {
         timeline.play();
 
 
+    }
+    private void setDateFormat() {
+
+        Timeline clock = new Timeline(new KeyFrame(Duration.ZERO, e -> {
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd MMMM");
+            lblDate.setText(LocalDateTime.now().format(formatter));
+        }), new KeyFrame(Duration.seconds(1)));
+        clock.setCycleCount(Animation.INDEFINITE);
+        clock.play();
     }
 }
