@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="821c4110-fe43-4f97-b5c6-bec89bbccac4" name="Changes" comment="add item form loaded">
-      <change afterPath="$PROJECT_DIR$/src/entity/Item.java" afterDir="false" />
+    <list default="true" id="821c4110-fe43-4f97-b5c6-bec89bbccac4" name="Changes" comment="item entity created">
+      <change afterPath="$PROJECT_DIR$/src/dao/custom/ItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/custom/impl/ItemDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pos_System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Pos_System.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="CSS File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -95,7 +96,7 @@
       <workItem from="1691625153068" duration="20052000" />
       <workItem from="1692092777173" duration="39000" />
       <workItem from="1692232876932" duration="16438000" />
-      <workItem from="1692261741110" duration="6747000" />
+      <workItem from="1692261741110" duration="9003000" />
     </task>
     <task id="LOCAL-00001" summary="Pos system project create">
       <option name="closed" value="true" />
@@ -201,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692266445146</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="item entity created">
+      <option name="closed" value="true" />
+      <created>1692278626310</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1692278626310</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +241,7 @@
     <MESSAGE value="Menu Bar updated" />
     <MESSAGE value="file updated" />
     <MESSAGE value="add item form loaded" />
-    <option name="LAST_COMMIT_MESSAGE" value="add item form loaded" />
+    <MESSAGE value="item entity created" />
+    <option name="LAST_COMMIT_MESSAGE" value="item entity created" />
   </component>
 </project>
