@@ -29,12 +29,14 @@ public class MenuBarController implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
         txtUserFullName.setText(ObjectPasser.userFullName);
         startClock();
-        setDateFormat();
+
     }
     private void startClock(){
         Timeline timeline = new Timeline(new KeyFrame(Duration.ZERO, e -> {
             currentTime = LocalTime.now();
             lblTime.setText(currentTime.format(DateTimeFormatter.ofPattern("hh:mm:ss a")));
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd MMMM uu");
+            lblDate.setText(LocalDateTime.now().format(formatter));
         }),
                 new KeyFrame(Duration.seconds(1)));
 
@@ -43,13 +45,5 @@ public class MenuBarController implements Initializable {
 
 
     }
-    private void setDateFormat() {
 
-        Timeline clock = new Timeline(new KeyFrame(Duration.ZERO, e -> {
-            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd MMMM");
-            lblDate.setText(LocalDateTime.now().format(formatter));
-        }), new KeyFrame(Duration.seconds(1)));
-        clock.setCycleCount(Animation.INDEFINITE);
-        clock.play();
-    }
 }
