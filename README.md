@@ -9,7 +9,7 @@ Welcome to the Point of Sale (POS) System project repository! This project is de
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
