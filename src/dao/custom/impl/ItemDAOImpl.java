@@ -62,7 +62,7 @@ public class ItemDAOImpl implements ItemDAO {
             throwables.printStackTrace();
 
         }
-        return null;
+        return allItem;
     }
 
 }
