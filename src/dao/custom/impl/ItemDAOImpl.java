@@ -6,6 +6,7 @@ import entity.Item;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 public class ItemDAOImpl implements ItemDAO {
     @Override
@@ -37,6 +38,31 @@ public class ItemDAOImpl implements ItemDAO {
             throwables.printStackTrace();
         }
         return "I000";
+    }
+
+    @Override
+    public ArrayList<Item> getAllItems() {
+        ArrayList<Item> allItem = new ArrayList<>();
+        try {
+            ResultSet resultSet=CrudUtil.executeQuery("SELECT * FROM item");
+            while(resultSet.next()){
+                allItem.add(new Item(
+                        resultSet.getString("itemID"),
+                        resultSet.getString("itemName"),
+                        resultSet.getString("batchNumber"),
+                        resultSet.getDouble("price"),
+                        resultSet.getDouble("qty"),
+                        resultSet.getString("supplier"),
+                        resultSet.getDate("expireDate")
+
+                ));
+            }
+
+        } catch (SQLException | ClassNotFoundException throwables) {
+            throwables.printStackTrace();
+
+        }
+        return null;
     }
 
 }

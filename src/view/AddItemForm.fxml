@@ -66,10 +66,15 @@
             <Font name="System Bold" size="21.0" />
          </font></Label>
       <Separator layoutX="11.0" layoutY="241.0" prefHeight="5.0" prefWidth="1170.0" />
-      <TableView layoutX="9.0" layoutY="254.0" prefHeight="418.0" prefWidth="1173.0">
+      <TableView fx:id="tblItem" layoutX="12.0" layoutY="254.0" prefHeight="418.0" prefWidth="1173.0">
          <columns>
-            <TableColumn prefWidth="75.0" text="C1" />
-            <TableColumn prefWidth="75.0" text="C2" />
+            <TableColumn fx:id="colItemId" prefWidth="149.33334732055664" text="Item ID" />
+            <TableColumn fx:id="colItemName" prefWidth="263.99998474121094" text="Item Name" />
+            <TableColumn fx:id="colBatchNo" prefWidth="154.39999389648438" text="Batch No" />
+            <TableColumn fx:id="colItemQuantity" prefWidth="124.53338623046875" text="Item Quantity" />
+            <TableColumn fx:id="colItemPrice" prefWidth="149.86663818359375" text="Item Price" />
+            <TableColumn fx:id="colSupplier" prefWidth="194.933349609375" text="Supplier" />
+            <TableColumn fx:id="colExpDate" prefWidth="138.39990234375" text="EXP Date" />
          </columns>
       </TableView>
       <Button layoutX="1025.0" layoutY="179.0" mnemonicParsing="false" onAction="#btnAddOnAction" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #ff3838;" text="Add" textFill="WHITE">
