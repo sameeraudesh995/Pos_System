@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="821c4110-fe43-4f97-b5c6-bec89bbccac4" name="Changes" comment="itemID format">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="821c4110-fe43-4f97-b5c6-bec89bbccac4" name="Changes" comment="getAllItem DAO done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/AddItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AddItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/custom/ItemDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/custom/ItemDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/custom/impl/ItemDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/custom/impl/ItemDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/AddItemForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AddItemForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bo/custom/ItemBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bo/custom/ItemBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bo/custom/impl/ItemBOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bo/custom/impl/ItemBOImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +104,7 @@
       <workItem from="1692261741110" duration="19145000" />
       <workItem from="1692374132616" duration="470000" />
       <workItem from="1692494825746" duration="670000" />
-      <workItem from="1693540048877" duration="16358000" />
+      <workItem from="1693540048877" duration="17030000" />
     </task>
     <task id="LOCAL-00001" summary="Pos system project create">
       <option name="closed" value="true" />
@@ -295,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693560842904</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="getAllItem DAO done">
+      <option name="closed" value="true" />
+      <created>1693565042527</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1693565042527</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,6 +339,7 @@
     <MESSAGE value="AddItemForm changed" />
     <MESSAGE value="Generated nextID in bo layer" />
     <MESSAGE value="itemID format" />
-    <option name="LAST_COMMIT_MESSAGE" value="itemID format" />
+    <MESSAGE value="getAllItem DAO done" />
+    <option name="LAST_COMMIT_MESSAGE" value="getAllItem DAO done" />
   </component>
 </project>
