@@ -19,4 +19,7 @@
     </orderEntry>
     <orderEntry type="library" name="lombok" level="project" />
   </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="80547dcd-673f-4159-aad0-025145c038fc" />
+  </component>
 </module>

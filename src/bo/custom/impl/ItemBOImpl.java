@@ -30,8 +30,6 @@ public class ItemBOImpl implements ItemBO {
     public String getNextId() {
         String lastItemId=itemDAO.getLastItemId();
         int lastId= Integer.parseInt(lastItemId.substring(1));
-        String nextID="I"+ (++lastId);
-
-        return nextID;
+        return String.format("I%03d",++lastId);
     }
 }
