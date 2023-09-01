@@ -25,4 +25,13 @@ public class ItemBOImpl implements ItemBO {
         return itemDAO.save(item);
 
     }
+
+    @Override
+    public String getNextId() {
+        String lastItemId=itemDAO.getLastItemId();
+        int lastId= Integer.parseInt(lastItemId.substring(1));
+        String nextID="I"+ (++lastId);
+
+        return nextID;
+    }
 }
